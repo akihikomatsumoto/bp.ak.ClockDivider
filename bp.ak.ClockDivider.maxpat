@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 557.0, 585.0, 774.0, 817.0 ],
+		"rect" : [ 38.0, 78.0, 887.0, 788.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -377,7 +377,8 @@
 					"presentation_rect" : [ 15.780661, 99.707764, 44.0, 36.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Steps[9]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "Div",
 							"parameter_shortname" : "Div",
 							"parameter_type" : 1,
 							"parameter_mmin" : 1.0,
@@ -391,7 +392,7 @@
 ,
 					"showname" : 0,
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"varname" : "Steps[1]"
+					"varname" : "Div"
 				}
 
 			}
@@ -502,14 +503,14 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 482.236084, 831.092529, 59.5, 22.0 ],
 					"restore" : 					{
+						"Div" : [ 1.0 ],
 						"GateTime[1]" : [ 100.0 ],
-						"Steps[1]" : [ 2.0 ],
 						"mute" : [ 0.0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u437004767"
+					"varname" : "u063002517"
 				}
 
 			}
@@ -847,7 +848,7 @@
 		"parameters" : 		{
 			"obj-20" : [ "mute[2]", "mute", 0 ],
 			"obj-33" : [ "PresetSubdivisions", "PresetSubdiv", 0 ],
-			"obj-29" : [ "Steps[9]", "Div", 0 ]
+			"obj-29" : [ "Div", "Div", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
